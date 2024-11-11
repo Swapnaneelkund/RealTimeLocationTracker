@@ -28,7 +28,7 @@ Installation
 
     Clone the Repository:
 
-git clone https://github.com/yourusername/location-tracker.git
+git clone https://github.com/Swapnaneelkund/RealTimeLocationTracker.git
 cd location-tracker
 
 Install Dependencies:

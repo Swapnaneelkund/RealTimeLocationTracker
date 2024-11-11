@@ -1,4 +1,4 @@
-require('dotenv').config();
+
 const express=require("express");
 const {Server}=require("socket.io");
 const path=require("path");
@@ -11,7 +11,7 @@ const io= new Server(server,{
         methods: ["GET", "POST"]
     }
 });
-const PORT = process.env.PORT
+
 app.set("view engine","ejs");
 app.use(express.static(path.join(__dirname,"public")));
 app.get("/",(req,res)=>{
@@ -26,5 +26,5 @@ io.on("connection",(socket)=>{
         io.emit("user-disconnected",socket.id);
     })
 })
-server.listen(PORT);
+server.listen(3080);
 
