@@ -1,3 +1,4 @@
+const socket=io();
 let Usersocket=null;
 if(navigator.geolocation){
     navigator.geolocation.watchPosition((position)=>{
@@ -19,7 +20,6 @@ L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
 const markers={};
 let routerControl=null;
 const users={};
-const socket=io();
 socket.on("recive-location",(data)=>{
     const{socketID,latitude,longitude,user}=data;
     users[user]=socketID;
