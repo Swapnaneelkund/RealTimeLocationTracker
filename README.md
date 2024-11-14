@@ -88,22 +88,6 @@ Start an HTTP Tunnel:
 
     Use the Public URL provided by Ngrok.
 
-Project Structure
-
-The directory structure for the project is as follows:
-
-location-tracker/
-├── public/
-│   ├── stylesheet/
-│   │   └── style.css          # CSS for the frontend
-│   └── js/
-│       └── script.js          # Frontend JavaScript logic
-├── views/
-│   └── index.ejs              # Main HTML template
-├── app.js                  # Express and Socket.IO server code
-├── README.md                  # Project documentation
-├── package-lock.json
-└── package.json               # Dependencies and project metadata
 
 Code Overview
 Server Code (app.js)
