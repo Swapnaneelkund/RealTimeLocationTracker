@@ -131,7 +131,12 @@ Here are some common issues and solutions:
         Ensure your network connection is active and the Leaflet tile URL is correct.
 
     Cross-Device Connection Issues:
-        Check that your mobile device and computer are on the same network.
+        Check that your mobile device and computer are on the same network.![Screenshot from 2024-12-31 19-02-51](https://github.com/user-attachments/assets/afcf85a9-8305-4b7b-99c5-d8502169f7a9)
+![Screenshot from 2024-12-31 19-02-32](https://github.com/user-attachments/assets/3e2928c2-1030-42a2-9f34-d39f765e5b67)
+![Screenshot from 2024-12-31 19-01-35](https://github.com/user-attachments/assets/9a861abb-05ff-4f34-a6ef-51602e6734f6)
+![Screenshot from 2024-12-31 19-01-29](https://github.com/user-attachments/assets/774ada7c-3811-4494-b6d3-b6f73c001e5d)
+![Screenshot from 2024-12-31 18-58-36](https://github.com/user-attachments/assets/f9afa031-3639-4459-8a15-8c449a1e8a86)
+
         Use your computer's local IP address in place of localhost.
 
     Location Permission:
