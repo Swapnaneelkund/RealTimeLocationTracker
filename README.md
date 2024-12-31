@@ -11,7 +11,12 @@ Features
         Each device has a unique marker on the map identified by a unique socketID.
         Markers persist across device reconnections.
 
-    Device Disconnection Handling:
+    Device Disconnection Handling:![Screenshot from 2024-12-31 19-02-51](https://github.com/user-attachments/assets/f7c1047e-8628-4acf-8356-ede63658aa32)
+![Screenshot from 2024-12-31 19-02-32](https://github.com/user-attachments/assets/b8757a76-efe2-4939-b4a6-ded9b3a3efee)
+![Screenshot from 2024-12-31 19-01-35](https://github.com/user-attachments/assets/0aed6c34-4cd6-4a8a-89de-0d50bb53ec07)
+![Screenshot from 2024-12-31 19-01-29](https://github.com/user-attachments/assets/ebba0689-0d6a-4e14-9276-6f6fab5e6456)
+![Screenshot from 2024-12-31 18-58-36](https://github.com/user-attachments/assets/e30d3c20-24f2-41ae-8875-06c9f2030653)
+
         Removes the user's marker when they disconnect from the application.
         Ensures that the map remains accurate and updated.
 
