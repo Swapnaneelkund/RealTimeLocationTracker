@@ -11,11 +11,7 @@ Features
         Each device has a unique marker on the map identified by a unique socketID.
         Markers persist across device reconnections.
 
-    Device Disconnection Handling:![Screenshot from 2024-12-31 19-02-51](https://github.com/user-attachments/assets/f7c1047e-8628-4acf-8356-ede63658aa32)
-![Screenshot from 2024-12-31 19-02-32](https://github.com/user-attachments/assets/b8757a76-efe2-4939-b4a6-ded9b3a3efee)
-![Screenshot from 2024-12-31 19-01-35](https://github.com/user-attachments/assets/0aed6c34-4cd6-4a8a-89de-0d50bb53ec07)
-![Screenshot from 2024-12-31 19-01-29](https://github.com/user-attachments/assets/ebba0689-0d6a-4e14-9276-6f6fab5e6456)
-![Screenshot from 2024-12-31 18-58-36](https://github.com/user-attachments/assets/e30d3c20-24f2-41ae-8875-06c9f2030653)
+
 
         Removes the user's marker when they disconnect from the application.
         Ensures that the map remains accurate and updated.
@@ -137,10 +133,6 @@ Here are some common issues and solutions:
 
     Cross-Device Connection Issues:
         Check that your mobile device and computer are on the same network.![Screenshot from 2024-12-31 19-02-51](https://github.com/user-attachments/assets/afcf85a9-8305-4b7b-99c5-d8502169f7a9)
-![Screenshot from 2024-12-31 19-02-32](https://github.com/user-attachments/assets/3e2928c2-1030-42a2-9f34-d39f765e5b67)
-![Screenshot from 2024-12-31 19-01-35](https://github.com/user-attachments/assets/9a861abb-05ff-4f34-a6ef-51602e6734f6)
-![Screenshot from 2024-12-31 19-01-29](https://github.com/user-attachments/assets/774ada7c-3811-4494-b6d3-b6f73c001e5d)
-![Screenshot from 2024-12-31 18-58-36](https://github.com/user-attachments/assets/f9afa031-3639-4459-8a15-8c449a1e8a86)
 
         Use your computer's local IP address in place of localhost.
 
@@ -149,3 +141,8 @@ Here are some common issues and solutions:
 
     Route Not Showing:
         Ensure Leaflet Routing is properly configured and the destination target is selected.
+![Screenshot from 2024-12-31 19-02-51](https://github.com/user-attachments/assets/7e6c346f-0eab-46af-b297-d7499b43d8d7)
+![Screenshot from 2024-12-31 19-02-32](https://github.com/user-attachments/assets/ab4590d2-242e-46f0-98b0-089bfe8c9752)
+![Screenshot from 2024-12-31 19-01-35](https://github.com/user-attachments/assets/6ea0c9e6-c3a0-467d-852a-33b8f324a00d)
+![Screenshot from 2024-12-31 19-01-29](https://github.com/user-attachments/assets/b1e1b7e2-452d-45b3-a69c-5b00a4113ab9)
+![Screenshot from 2024-12-31 18-58-36](https://github.com/user-attachments/assets/6ed5784b-5bbc-4606-9163-c9d5275e6084)
