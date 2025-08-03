@@ -8,8 +8,8 @@ if(navigator.geolocation){
         console.error(error);
     },{
         enableHighAccuracy:true,
-        maximumAge:0,
-        timeout:3000
+        maximumAge:3000,
+        timeout:5000
     });
      
 }
