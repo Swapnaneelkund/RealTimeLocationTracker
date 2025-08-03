@@ -179,17 +179,29 @@
   .absolute {
     position: absolute;
   }
+  .fixed {
+    position: fixed;
+  }
   .relative {
     position: relative;
   }
   .top-5 {
     top: calc(var(--spacing) * 5);
   }
+  .bottom-5 {
+    bottom: calc(var(--spacing) * 5);
+  }
+  .bottom-15 {
+    bottom: calc(var(--spacing) * 15);
+  }
+  .bottom-17 {
+    bottom: calc(var(--spacing) * 17);
+  }
+  .bottom-20 {
+    bottom: calc(var(--spacing) * 20);
+  }
   .left-4 {
     left: calc(var(--spacing) * 4);
-  }
-  .left-\[7\%\] {
-    left: 7%;
   }
   .z-10 {
     z-index: 10;
@@ -221,9 +233,6 @@
   .mb-2 {
     margin-bottom: calc(var(--spacing) * 2);
   }
-  .block {
-    display: block;
-  }
   .flex {
     display: flex;
   }
@@ -239,17 +248,8 @@
   .h-screen {
     height: 100vh;
   }
-  .max-h-\[120px\] {
-    max-height: 120px;
-  }
   .min-h-screen {
     min-height: 100vh;
-  }
-  .w-\[10\%\] {
-    width: 10%;
-  }
-  .w-\[85\%\] {
-    width: 85%;
   }
   .w-\[90\%\] {
     width: 90%;
@@ -257,26 +257,17 @@
   .w-\[95\%\] {
     width: 95%;
   }
-  .w-\[100px\] {
-    width: 100px;
-  }
   .w-full {
     width: 100%;
-  }
-  .max-w-\[30\%\] {
-    max-width: 30%;
   }
   .max-w-\[230px\] {
     max-width: 230px;
   }
-  .max-w-\[250px\] {
-    max-width: 250px;
-  }
-  .max-w-\[300px\] {
-    max-width: 300px;
-  }
   .border-collapse {
     border-collapse: collapse;
+  }
+  .transform {
+    transform: var(--tw-rotate-x,) var(--tw-rotate-y,) var(--tw-rotate-z,) var(--tw-skew-x,) var(--tw-skew-y,);
   }
   .resize {
     resize: both;
@@ -290,8 +281,14 @@
   .items-center {
     align-items: center;
   }
+  .items-end {
+    align-items: flex-end;
+  }
   .justify-center {
     justify-content: center;
+  }
+  .justify-end {
+    justify-content: flex-end;
   }
   .gap-2 {
     gap: calc(var(--spacing) * 2);
@@ -301,9 +298,6 @@
   }
   .gap-8 {
     gap: calc(var(--spacing) * 8);
-  }
-  .overflow-y-auto {
-    overflow-y: auto;
   }
   .rounded {
     border-radius: 0.25rem;
@@ -333,9 +327,6 @@
   .p-4 {
     padding: calc(var(--spacing) * 4);
   }
-  .p-\[6px\] {
-    padding: 6px;
-  }
   .px-2 {
     padding-inline: calc(var(--spacing) * 2);
   }
@@ -348,6 +339,9 @@
   .py-3 {
     padding-block: calc(var(--spacing) * 3);
   }
+  .pt-6 {
+    padding-top: calc(var(--spacing) * 6);
+  }
   .text-center {
     text-align: center;
   }
@@ -358,9 +352,6 @@
   .text-xl {
     font-size: var(--text-xl);
     line-height: var(--tw-leading, var(--text-xl--line-height));
-  }
-  .text-\[12px\] {
-    font-size: 12px;
   }
   .font-semibold {
     --tw-font-weight: var(--font-weight-semibold);
@@ -442,19 +433,9 @@
       left: calc(var(--spacing) * 6);
     }
   }
-  .sm\:w-\[200px\] {
-    @media (width >= 40rem) {
-      width: 200px;
-    }
-  }
   .md\:w-\[50\%\] {
     @media (width >= 48rem) {
       width: 50%;
-    }
-  }
-  .md\:w-\[200px\] {
-    @media (width >= 48rem) {
-      width: 200px;
     }
   }
   .md\:w-\[500px\] {
@@ -467,6 +448,26 @@
       padding: calc(var(--spacing) * 8);
     }
   }
+}
+@property --tw-rotate-x {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-rotate-y {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-rotate-z {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-skew-x {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-skew-y {
+  syntax: "*";
+  inherits: false;
 }
 @property --tw-border-style {
   syntax: "*";
@@ -569,6 +570,11 @@
 @layer properties {
   @supports ((-webkit-hyphens: none) and (not (margin-trim: inline))) or ((-moz-orient: inline) and (not (color:rgb(from red r g b)))) {
     *, ::before, ::after, ::backdrop {
+      --tw-rotate-x: initial;
+      --tw-rotate-y: initial;
+      --tw-rotate-z: initial;
+      --tw-skew-x: initial;
+      --tw-skew-y: initial;
       --tw-border-style: solid;
       --tw-font-weight: initial;
       --tw-shadow: 0 0 #0000;

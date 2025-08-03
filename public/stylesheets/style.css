@@ -5,30 +5,31 @@
     background: rgba(255, 255, 255, 0.9);
     border-radius: 6px;
   }
+ #map {
+  position: relative;
+}
 
   @media screen and (max-width: 640px) {
-    .leaflet-routing-container {
-      font-size: 11px;
-      max-width: 180px;
-      padding: 4px;
-      line-height: 1.2;
- 
-    }
-
-    .leaflet-routing-container h2 {
-      font-size: 12px;
-    }
-
-    .leaflet-routing-container .leaflet-routing-alt {
-      padding: 2px 4px;
-    }
-
-    .leaflet-routing-container .leaflet-routing-collapse-btn {
-      font-size: 10px;
-    }
-
-    .leaflet-routing-container .leaflet-routing-icon {
-      display: none;  
-    }
+  .leaflet-routing-container {
+    font-size: 11px;
+    max-width: 90%;
+    padding: 4px;
+    line-height: 1.2;
   }
 
+  .leaflet-routing-container h2 {
+    font-size: 12px;
+  }
+
+  .leaflet-routing-container .leaflet-routing-alt {
+    padding: 2px 4px;
+  }
+
+  .leaflet-routing-container .leaflet-routing-collapse-btn {
+    font-size: 10px;
+  }
+
+  .leaflet-routing-container .leaflet-routing-icon {
+    display: none;
+  }
+}
