@@ -64,6 +64,7 @@ document.getElementById("message-form").addEventListener("submit",(event)=>{
             routerControl = L.Routing.control({
                 waypoints: [currentUserLocation, targetLocation],
                 routeWhileDragging: true,
+                collapsible: false,
                 createMarker: function() {
                     return null; 
                 }
