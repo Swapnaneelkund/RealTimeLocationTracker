@@ -8,7 +8,7 @@ if(navigator.geolocation){
         console.error(error);
     },{
         enableHighAccuracy:true,
-        maximumAge:3000,
+        maximumAge:2000,
         timeout:5000
     });
      
